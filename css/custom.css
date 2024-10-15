@@ -1,0 +1,115 @@
+/* CSS */
+
+html, body{
+	width: 100%; height: 100%;
+	background-color: antiquewhite;
+}
+
+.navbar-brand img{
+	width: 28px; height: auto;
+	margin: 0px 5px; padding: 0px;
+	border-radius: 14px;
+}
+
+nav{
+	background-color: darkred;
+}
+
+#my_key{
+	width: 100%; height: auto;
+	padding: 3rem 0px;
+	background-color: sandybrown;
+	color: white;
+}
+
+#my_key img{
+	width: 180px; height: auto;
+	margin: 1rem 0px;
+	border-radius: 90px;
+	filter: drop-shadow(0 0 2.0rem sienna);
+}
+
+#my_key h1{
+	margin: 1rem 0px;
+	font-size: 3rem;
+}
+
+#my_key p{
+	margin: 1rem 0px;
+	font-size: 1.2rem;
+}
+
+#my_portfolio{
+	text-align: center;
+}
+
+#my_portfolio{
+	width: 100%; height: auto;
+	background-color: antiquewhite;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#my_about{
+	width: 100%; height: auto;
+	background-color: sandybrown;
+	color: white;
+}
+
+#my_contact{
+	width: 100%; height: auto;
+	background-color: antiquewhite;
+	text-align: center;
+}
+
+#my_contact i{
+	padding: 0.2rem;
+	font-size: 2rem;
+}
+
+
+
+.card {
+	height: 100%;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card-text {
+    flex-grow: 1;
+}
+a {
+	width: auto;
+	display: block;
+    margin: auto;
+}
+#my_about .headingtext {
+	text-align: center;
+}
+#my_about h1 {
+	padding-top: 50px;
+}
+#my_about .row {
+	padding: 0 100px;
+	padding-bottom: 50px;
+}
+#my_contact .row {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+svg {
+	padding: 2px;
+}
+
+@media screen and (max-width: 768px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+
+	.col-md {
+		margin-bottom: 10px;
+	}
+	#my_about .row {
+		padding: 0 50px 50px 50px;
+	}
+
+}
